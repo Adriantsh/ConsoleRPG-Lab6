@@ -37,5 +37,5 @@ void Player::takeDamage(int damage) {
 
 // display stats
 void Player::displayStatus() const {
-    std::cout << name << " - HP: " << health << "/" << maxHealth << std::endl;
+    std::cout << "[" << name << "] - HP: " << health << "/" << maxHealth << std::endl;
 }
